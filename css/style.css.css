@@ -56,20 +56,20 @@ color: #0065FC;
     color: #0065FC;
     font-weight: 600;
 }
-@media screen and (min-width:601px) 
+@media screen and (min-width:600px) 
 {
-.header
-{
-grid-template-columns: auto 1fr auto auto;
-grid-template-areas: "logo . navbar button";
-}    
-.headerNavlink[data-active=true]
-{
-border-top: 3px solid #0065fc;
-}
+  .header 
+  {
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navbar button";
+  }    
+  .headerNavlink[data-active=true]
+  {
+    border-top: 3px solid #0065fc;
+  }
 .headerNavlink:hover{
     border-top: 3px solid #0065fc;
-}
+  }
 }
 @media screen and (max-width: 600px) {
     .header{
@@ -237,13 +237,13 @@ border-top: 3px solid #0065fc;
       display: flex;
       width: 100%;
     }
-    .rechercheFormrechercheinput {
+    .rechercheFormrechercheInput {
       flex: 1;
     }
-    .rechercheFormSubmitinputText {
+    .rechercheFormSubmitInputTexte {
       display: none;
     }
-    .rechercheFormSubmitinputIcon {
+    .rechercheFormSubmitInputIcon {
       display: block;
     }
   }
@@ -256,14 +256,14 @@ border-top: 3px solid #0065fc;
     }
   }
   @media screen and (min-width: 601px) {
-    .rechercheFormSubmitinputText {
+    .rechercheFormSubmitInputTexte {
       display: block;
     }
-    .rechercheFormSubmitinputIcon {
+    .rechercheFormSubmitInputIcon {
       display: none !important;
     }
   }
-  .Lespluspopulaires, .HebergementMain {
+  .HebergementWrapper, .Lespluspopulaires, .HebergementMain {
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     padding: 2rem;
@@ -310,13 +310,13 @@ border-top: 3px solid #0065fc;
     max-height: 100%;
     border-radius: 1rem 1rem 0 0;
   }
-  .HebergementMainCadreFigureCaptionTitre {
+  .HebergementMainCadreFigureFigcaptionTitre {
     margin: 0.25rem 0.75rem 0 0.75rem;
   }
-  .HebergementMainCadreDescription {
+  .prixdelanuit {
     margin: 0.25rem 0.75rem 0.25rem 0.75rem;
   }
-  .HebergementMainCadreDescriptionPrice {
+  .prixdelanuit {
     font-weight: bold;
   }
   .HebergementMainCadreEtoile {
@@ -384,7 +384,7 @@ border-top: 3px solid #0065fc;
       column-gap: 2rem;
       grid-row-start: 1;
     }
-    .LespluspopulairesTitre {
+    .LespluspopulairesMainCadreFigurefigcaptionTitre {
       grid-column: 1/-1;
     }
   }
@@ -514,12 +514,12 @@ border-top: 3px solid #0065fc;
     display: block;
     margin: 1rem 0;
   }
-  .footerColumnwrapperColumnLink:hover {
+  .footerColumnWrapperColumnLink:hover {
     text-decoration: underline;
   }
   
   @media (max-width: 750px) {
-    .footerColumnwrapper {
+    .footerColumnWrapper {
       flex-direction: column;
       padding: 2rem;
     }
